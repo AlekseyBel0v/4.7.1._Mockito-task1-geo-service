@@ -6,7 +6,7 @@ import ru.netology.i18n.LocalizationServiceImpl;
 
 public class LocalizationServiceImplTest {
     @ParameterizedTest
-    @CsvSource({"RUSSIA, Добро пожаловать" +
+    @CsvSource({"RUSSIA, Добро пожаловать",
                 "USA, Welcome"})
     public void testLocale(Country country, String expectedMsg) {
 
